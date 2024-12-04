@@ -1,0 +1,342 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background: rgb(251, 248, 204);
+}
+.container {
+    margin-left: 95px;
+    margin-right: 95px;
+    height: auto;
+}
+/* header bo'limi boshlandi */
+
+/* header ichidagi navbar boshlandi */
+.header-nav {
+    display: flex;
+    justify-content: space-between;
+    height: 27px;
+    margin-top: 35px;
+}
+.menu-ul {
+    display: flex;
+    list-style: none;
+    width: 270px;
+    height: 27px;
+    justify-content: space-between;
+}
+a {
+    text-decoration: none;
+    
+}
+.nav-heading {
+    color: rgb(3, 4, 94);
+    font-family: Poppins;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 36px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.menu-ul-list {
+    color: rgb(3, 4, 94);
+    font-family: Poppins;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 27px;
+    }
+    .menu-ul-list a {
+        color: #03045E;
+    }
+    .menu-soical {
+        width: 120px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .fa-brands {
+        color: rgb(3, 4, 94);
+        font-size: 20px;
+    }
+
+    /* header ichidagi navbar tugadi */
+
+    /* header ichidagi home boshlandi */
+    .header-flex {
+        display: flex;
+        height: 650px;
+        justify-content: space-between;
+        align-items: center;
+        
+    }
+    .hero-heading {
+        color: rgb(3, 4, 94);
+        font-family: Poppins;
+        font-size: 28px;
+        font-weight: 500;
+        line-height: 42px;
+    }
+    .hero-content {
+        width: 616px;
+        height: 232px;
+        color: rgb(3, 4, 94);
+        font-family: Poppins;
+        font-size: 100px;
+        font-weight: 800;
+        line-height: 116px;
+        margin-left: -4px;
+    }
+    .hero-bottom-content {
+        color: rgb(3, 4, 94);
+        font-family: Poppins;
+        font-size: 28px;
+        font-weight: 500;
+        line-height: 42px;
+    }
+    .hero-button {
+        margin-top: 40px;
+        width: 158px;
+        height: 61px;
+        display: inline-block;
+        box-sizing: border-box;
+        /* Dark Brown */
+        border: 1px solid rgb(71, 67, 6);
+        border-radius: 6px;
+
+    }
+    .hero-button p {
+        color: rgb(71, 67, 6);
+        font-family: Poppins;
+        font-size: 20px;
+        font-weight: 400;
+        line-height: 30px;
+         padding: 14px 36px;
+         border-radius: 6px;
+         position: relative;
+         top: 7px;
+         left: 6px;
+        background: rgb(245, 238, 132);
+    }
+    .hero-button p:hover {
+        position: relative;
+        cursor: pointer;
+         top: 0px;
+         left: 0px;
+    }
+    .hero-img {
+        width: 400px;
+        height: 400px;
+        background-image: url('img/Image.png');
+          background-size: cover;
+        background-position: center; 
+        background-repeat: no-repeat; 
+    }
+
+    .img-icon1 {
+        width: 70px;
+        position: relative;
+        top: 300px;
+    }
+    .img-icon2 {
+        width: 40px;
+        position: relative;
+        left: 260px;
+    }
+    /* header ichidagi home tugadi */
+
+    /* header bo'limi tugadi */
+
+    /* main bo'limi boshlandi */
+
+    /* main ichidagi about bo'limi boshlandi */
+    .heading-text {
+        color: rgb(247, 241, 151);
+        font-family: Poppins;
+        font-size: 100px;
+        font-weight: 800;
+        line-height: 116px;
+    }
+    .heading-hero {
+        color: rgb(3, 4, 94);
+        font-family: Poppins;
+        font-size: 24px;
+        font-weight: 400;
+        line-height: 44px;
+        width: 900px;
+        height: 132px;
+    }
+    .about-heading {
+        margin-bottom: 150px;
+    }
+    .about-box {
+        margin-top: 80px;
+        width: 900px;
+        height: 182px;
+        margin-left: 200px;
+    }
+    .about-box h3 {
+        color: rgb(3, 4, 94);
+        font-family: Poppins;
+        font-size: 24px;
+        font-weight: 600;
+        line-height: 40px;
+        margin-left: -20px;
+    }
+    .box-span {
+        font-size: 34px;
+        font-weight: 700;
+        position: relative;
+        right: 18px;
+    }
+    .about-box p {
+        color: rgb(3, 4, 94);
+        font-family: Poppins;
+        font-size: 24px;
+        font-weight: 400;
+        line-height: 44px;
+    }
+
+    /* main ichidagi about bo'limi tugadi  */
+
+    /* main ichidagi work bo'limi boshlandi */
+    .main-work {
+        margin-top: 100px;
+    }
+    .work-section {
+        display: flex;
+        justify-content: space-between;
+    }
+    .heading-text1 {
+        width: 900px;
+        height: 132px;
+        color: rgb(3, 4, 94);
+        font-family: Poppins;
+        font-size: 24px;
+        font-weight: 400;
+        line-height: 44px;
+        letter-spacing: 0%;
+        text-align: left;
+    }
+    .section1 img {
+        width: 480px;
+    }
+    .section1 {
+        width: 480px;
+    }
+    .section-image-container {
+        position: relative;
+        overflow: hidden;
+        cursor: pointer;
+    }
+    .section-image-container img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        transition: transform 0.3s ease-in-out;
+    }
+.overlay {
+       background: #474306;
+        position: absolute;
+        top: 0;
+        left: -100%;
+        width: 100%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 24px;
+        font-family: Arial, sans-serif;
+        transition: left 0.5s ease-in-out;
+        font-family: Poppins;
+        font-size: 40px;
+        font-weight: 600;
+        line-height: 50px;
+        text-align: center;
+        
+    }
+    .overlay p {
+        width: 239px;
+        color: #FBF8CC;
+
+    }
+.section-image-container:hover .overlay {
+        left: 0;
+    }
+
+.section1-intro {
+    color: rgb(3, 4, 94);
+    font-family: Poppins;
+    font-style: italic;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 44px;
+    }
+.section1-heading {
+    color: rgb(3, 4, 94);
+    font-family: Poppins;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 44px;
+    }
+    .section1-text {
+    width: 480px;
+    color: rgb(3, 4, 94);
+    font-family: Poppins;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 32px;
+    text-align: justify;
+    }
+    /* main ichidagi work bo'limi tugadi */
+    /* main bo'limi tugadi */
+
+
+    /* footer bo'limi boshlandi */
+    /* footer ichidagi contact bo'limi boshlandi    */
+    .main-contact {
+        margin-top: 100px;
+        margin-bottom: 100px;
+    }
+    .contact-flex {
+        display: flex;
+    }
+.contact-header {
+        color: rgb(247, 241, 151);
+        font-family: Poppins;
+        font-size: 100px;
+        font-weight: 800;
+        line-height: 116px;
+    }
+.contact-image {
+    margin-top: 50px;
+    
+}
+.contact-image img {
+    height: 334px;
+ 
+}
+.contact-text {
+    margin-top: 40px;
+}
+.text-p {
+    width: 500px;
+    margin-left: 59px;
+    color: rgb(3, 4, 94);
+    font-family: Poppins;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 44px;
+}
+.text-p1, .text-p2 {
+    margin-left: 59px;
+    color: rgb(3, 4, 94);
+    font-family: Poppins;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 44px;
+}
+/* footer ichidagi contact bo'limi tugadi  */
+/* footer bo'limi tugadi */
